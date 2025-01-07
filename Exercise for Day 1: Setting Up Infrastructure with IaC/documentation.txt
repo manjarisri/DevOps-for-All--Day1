@@ -1,0 +1,18 @@
+Setting Up Infrastructure with Terraform (Docker Provider)
+
+Overview:
+Goal: Automate the setup of infrastructure locally using Terraform and Docker, without a cloud account.
+Example: Provision an Nginx web server running in a Docker container.
+
+
+Setup Terraform Project:
+
+Create a new directory for your Terraform files.
+Inside the directory, create a main.tf file.
+
+Terraform Configuration:
+
+Define the Docker provider.
+Write configuration for:
+Pulling the nginx:latest Docker image.
+Creating an Nginx container with port mapping.
